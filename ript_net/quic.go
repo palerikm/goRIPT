@@ -1,5 +1,7 @@
 package ript_net
 
+//Note: Will remove relative paths once we have figured out stable parts.
+//      Relative paths makes forking etc simpler.
 import (
 	"bytes"
 	"encoding/json"
@@ -8,7 +10,7 @@ import (
 	"github.com/labstack/gommon/log"
 	"github.com/lucas-clemente/quic-go"
 	"github.com/lucas-clemente/quic-go/http3"
-	"github.com/WhatIETF/goRIPT/common"
+	"../common"
 	"io"
 	"net/http"
 )

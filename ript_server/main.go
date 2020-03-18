@@ -1,7 +1,7 @@
 package main
 
 //Note: Will remove relative paths once we have figured out stable parts.
-//      Relative paths makes forking etc simpler. 
+//      Relative paths makes forking etc simpler.
 import (
 	"../ript_net"
 	"flag"

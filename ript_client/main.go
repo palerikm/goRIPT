@@ -1,10 +1,12 @@
 package main
 
+//Note: Will remove relative paths once we have figured out stable parts.
+//      Relative paths makes forking etc simpler.
 import (
+	"../ript_net"
 	"flag"
 	"fmt"
 	"github.com/gordonklaus/portaudio"
-	"github.com/WhatIETF/goRIPT/ript_net"
 	"log"
 	"os"
 	"os/signal"

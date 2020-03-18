@@ -1,16 +1,18 @@
 package main
 
+//Note: Will remove relative paths once we have figured out stable parts.
+//      Relative paths makes forking etc simpler.
 import (
+	"../common"
+	"../ript_net"
 	"bytes"
-	"encoding/json"
-	"fmt"
 	"crypto/tls"
 	"crypto/x509"
+	"encoding/json"
+	"fmt"
 	"github.com/labstack/gommon/log"
 	"github.com/lucas-clemente/quic-go"
 	"github.com/lucas-clemente/quic-go/http3"
-	"github.com/WhatIETF/goRIPT/common"
-	"github.com/WhatIETF/goRIPT/ript_net"
 	"io"
 	"net/http"
 	"time"
